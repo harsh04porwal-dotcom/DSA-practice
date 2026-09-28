@@ -37,7 +37,7 @@ float averageArray(int arr[], int n)
 
 void count_Positive_Negative(int arr[], int n, int *positive, int *negative)
 {
-    *positive = 0;
+    *positive = 0;          // * is used with a pointer to access or change the value stored at the memory address that the pointer holds.
     *negative = 0;
     for (int i = 0; i < n; i++) 
     {
