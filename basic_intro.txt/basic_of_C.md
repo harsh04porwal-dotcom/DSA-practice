@@ -1,6 +1,6 @@
 📝 C Language — Quick Revision Notes
 
-1. # Basic Structure
+# 1.  Basic Structure
 
 #include <stdio.h>
 int main()
@@ -13,7 +13,7 @@ int main()
 ~ main() → program starts here
 ~ return 0 → program ended successfully
 
-2.  # Variables & Data Types
+# 2.   Variables & Data Types
 
 int age = 21;
 float price = 10.5;
@@ -26,7 +26,7 @@ double	10.55	%lf
 char	'A'	%c
 string	"Hello"	%s
 
-3. # Input / Output
+# 3.  Input / Output
 
 Output:
 printf("Hello");
@@ -38,7 +38,7 @@ scanf("%d", &age);
 *Remember*:
 **&age-means address of age.**
 
-4. # Operators
+# 4.  Operators
 
 **Arithmetic** 
 
@@ -65,7 +65,7 @@ Example: 10 % 3 = 1
 ||    OR
 !     NOT
 
-5. # If-Else
+# 5.  If-Else
 
 if (age >= 18)
 {
@@ -91,7 +91,7 @@ else
     printf("C");
 }
 
-6. # Loops
+# 6.  Loops
 
 **For Loop** ⭐
 
@@ -119,7 +119,7 @@ while (condition);
 
 *Difference: do-while executes at least once.*
 
-7. # Arrays ⭐⭐⭐
+# 7.  Arrays ⭐⭐⭐
 
 int arr[] = {10, 20, 30, 40, 50};
 
@@ -135,7 +135,7 @@ arr[2]   // 30
 Array size
 int n = sizeof(arr) / sizeof(arr[0]);
 
-8. # Strings
+# 8.  Strings
 
 char name[] = "Harsh";
 
@@ -154,7 +154,7 @@ strcat(a, b);    // join
 
 *Header: #include <string.h>*
 
-9. # Functions ⭐⭐⭐
+# 9.  Functions ⭐⭐⭐
 
 **Basic function:**
 
@@ -174,7 +174,7 @@ void printHello()
 
 *void → returns nothing.*
 
-10. # Pass by Value vs Pointer
+# 10.  Pass by Value vs Pointer
 
 **Normal:**
 
@@ -200,7 +200,7 @@ change(&a);
 & → address of variable
 * → value at that address
 
-11. # Pointers ⭐⭐⭐
+# 11.  Pointers ⭐⭐⭐
 
 int x = 10;
 int *p = &x;
@@ -218,7 +218,7 @@ p → stores address.
 
 Now: x = 20
 
-12. # Structures
+# 12.  Structures
 
 Used to store different types together.
 
@@ -240,7 +240,7 @@ s.grade = 'A';
 s.age
 s.grade
 
-13. # Switch
+# 13.  Switch
 
 Useful when you have multiple fixed choices.
 
@@ -258,7 +258,7 @@ switch(choice)
         printf("Invalid");
 }
 
-14. # Break & Continue
+# 14.  Break & Continue
 
 **break**
 Stops the loop.
@@ -278,7 +278,7 @@ for(...)
         continue;
 }
 
-15. # Common DSA Patterns ⭐⭐⭐
+# 15.  Common DSA Patterns ⭐⭐⭐
 
 **Array traversal**
 
@@ -328,7 +328,7 @@ while (start < end)
 
 *You've already used this for reverse + palindrome. 🔥*
 
-16. # Dynamic Memory — Just Know the Basics
+# 16.  Dynamic Memory — Just Know the Basics
 
 malloc()
 calloc()
@@ -342,7 +342,7 @@ Release memory:
 free(arr);
 *You'll need this more when you reach advanced DSA.*
 
-17. # File Handling — Basic Idea
+# 17.  File Handling — Basic Idea
 
 FILE *fp;
 fp = fopen("data.txt", "r");
@@ -356,7 +356,7 @@ Modes:
 
 Not very important for your current DSA preparation.
 
-18. # Recursion ⭐
+# 18.  Recursion ⭐
 
 A function calling itself.
 
